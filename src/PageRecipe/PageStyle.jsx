@@ -1,0 +1,73 @@
+import styled from 'styled-components';
+
+const PageStyle = styled.div`
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #b4b3b3;
+    padding: 20px;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #222;
+        background-color: white;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin-bottom: 20px;
+        color: #444;
+        background-color: white;
+        border:  2px solid black;
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0 4px 8px #383838;
+    }
+
+    img {
+        width: 300px; 
+        height: 200px; 
+        object-fit: cover; 
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    }
+    ol {
+        list-style: none;
+        padding: 0;
+        background-color: white;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+    li {
+        font-size: 18px;
+        line-height: 1.6;
+        color: #444;
+        background-color: white;
+`;
+const Page = styled.p`
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #444;
+    background-color: white;
+    border:  2px solid black;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px #383838;
+    
+    
+`
+const StyleCenter = styled.div`
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`
+export {PageStyle, StyleCenter, Page};
