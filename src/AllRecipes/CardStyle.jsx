@@ -7,7 +7,7 @@ const CardStyle = styled.div`
     border-radius: 8px;
     overflow: hidden;
     background-color: white;
-    height: 40vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -39,6 +39,7 @@ const CardStyle = styled.div`
 
     button {
         display: block;
+        margin-top: 25px;
         width: 100%;
         padding: 10px;
         background-color: white;

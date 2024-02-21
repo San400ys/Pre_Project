@@ -27,19 +27,13 @@ const PageStyle = styled.div`
         padding: 10px;
         box-shadow: 0 4px 8px #383838;
     }
-    img {
-        width: 300px;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 10px;
-        margin-bottom: 20px;
-    }
 
     ol {
         padding: 20px;
         background-color: white;
         margin-bottom: 20px;
         text-align: start;
+        
     }
     li {
         font-size: 18px;

@@ -4,7 +4,7 @@ import {debounce} from "lodash";
 const Search = ({ setFilteredRecipes }) => {
     const [search, setSearch] = useState('');
 
-    const debounced = debounce(setFilteredRecipes, 1000);
+    const debounced = debounce(setFilteredRecipes, 1500);
 
     const handleSearchChange = (event) => {
         const newSearch = event.target.value;

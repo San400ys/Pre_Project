@@ -1,32 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import AllRecipesStyle from "../AllRecipes/AllRecipesStyle";
 import Search from "../Search/Search";
 import SearchStyle from "../Search/SearchStyle";
 import GridStyle from "./GridStyle";
 import CardStyle from "./CardStyle";
 import { Link } from "react-router-dom";
+import SelectFavorite from "../FavoritesRecipes/SelectFavorite";
 
 const AllRecipes = ({ recipes, favoriteRecipes, setFavoriteRecipes }) => {
-    const [filteredRecipes, setFilteredRecipes] = useState(recipes);
-
-    const toggleFavorite = (recipeId) => {
-        const isFavorite = favoriteRecipes.some((recipe) => recipe.id === recipeId);
-        if (isFavorite) {
-            setFavoriteRecipes(favoriteRecipes.filter((recipe) => recipe.id !== recipeId));
-        } else {
-            const recipeToAdd = recipes.find((recipe) => recipe.id === recipeId);
-            if (recipeToAdd) {
-                setFavoriteRecipes([...favoriteRecipes, recipeToAdd]);
-            }
-        }
-    };
-
-    const updateFilteredRecipes = (newSearch) => {
-        const filteredRecipes = recipes.filter(recipe =>
-            recipe.title.toLowerCase().includes(newSearch.toLowerCase())
-        );
-        setFilteredRecipes(filteredRecipes);
-    };
+    const { filteredRecipes, toggleFavorite, updateFilteredRecipes } = SelectFavorite(recipes, favoriteRecipes, setFavoriteRecipes);
 
     return (
         <AllRecipesStyle>

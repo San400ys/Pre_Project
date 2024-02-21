@@ -1,10 +1,12 @@
 import React from 'react';
-import {useParams} from "react-router-dom";
-import {Page, PageStyle, StyleCenter} from "./PageStyle";
+import { useParams } from "react-router-dom";
+import { Page, PageStyle, StyleCenter } from "./PageStyle";
+import Slider from "../Slider/Slider";
+import RecipeImage from "./RecipeImage";
+
 
 const PageRecipe = ({ recipes }) => {
-    const {id} = useParams();
-
+    const { id } = useParams();
     const Recipe = recipes.find(recipe => recipe.id === parseInt(id));
 
     return (
@@ -13,7 +15,7 @@ const PageRecipe = ({ recipes }) => {
                 {Recipe ? (
                     <Page>
                         <h2>{Recipe.title}</h2>
-                        <img src={Recipe.image} alt={Recipe.title}/>
+                        <Slider images={RecipeImage(Recipe)} />
                         <ol>
                             {Recipe.cooking_method.split('\n').map((step, index) => (
                                 <li key={index}>{step}</li>
@@ -26,7 +28,6 @@ const PageRecipe = ({ recipes }) => {
                 )}
             </StyleCenter>
         </PageStyle>
-
     );
 };
 
