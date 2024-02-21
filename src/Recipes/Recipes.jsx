@@ -2,350 +2,350 @@ export const Recipes = [
     {
         "id": 1,
         "title": "Паста с креветками",
-        "cooking_method": "1. Вскипятить воду в кастрюле и добавить соль. Добавить пасту и варить в соответствии с инструкцией на упаковке до готовности.\n2. В то время как паста варится, разогреть сковороду на среднем огне. Добавить оливковое масло и обжарить креветки до золотистой корочки, приправить солью и перцем по вкусу.\n3. Добавить измельченный чеснок и обжарить до аромата, затем добавить мелко нарезанный петрушку.\n4. Откинуть воду с отварной пасты и добавить ее в сковороду с креветками. Тщательно перемешать, чтобы паста покрылась соусом.\n5. Подавать горячим, посыпав пармезаном и украсив ломтиками лимона.",
+        "cooking_method": "Вскипятить воду в кастрюле и добавить соль. Добавить пасту и варить в соответствии с инструкцией на упаковке до готовности.\nВ то время как паста варится, разогреть сковороду на среднем огне. Добавить оливковое масло и обжарить креветки до золотистой корочки, приправить солью и перцем по вкусу.\nДобавить измельченный чеснок и обжарить до аромата, затем добавить мелко нарезанный петрушку.\nОткинуть воду с отварной пасты и добавить ее в сковороду с креветками. Тщательно перемешать, чтобы паста покрылась соусом.\nПодавать горячим, посыпав пармезаном и украсив ломтиками лимона.",
         "prep_time": "25 минут",
         "image": "https://e1.edimdoma.ru/data/recipes/0012/7910/127910-ed4_wide.jpg?1628770182"
     },
     {
         "id": 2,
         "title": "Греческий салат",
-        "cooking_method": "1. Нарезать помидоры, огурцы, перец, красный лук и оливки кубиками.\n 2. Смешать все овощи в большой миске.\n3. Добавить кубики феты и ломтики оливок.\n4. Приправить солью, перцем, оливковым маслом и уксусом.\n5. Перемешать и посыпать мелко нарезанной петрушкой перед подачей.",
+        "cooking_method": "Нарезать помидоры, огурцы, перец, красный лук и оливки кубиками.\nСмешать все овощи в большой миске.\nДобавить кубики феты и ломтики оливок.\nПриправить солью, перцем, оливковым маслом и уксусом.\nПеремешать и посыпать мелко нарезанной петрушкой перед подачей.",
         "prep_time": "15 минут",
         "image": "https://img1.russianfood.com/dycontent/images_upl/557/big_556060.jpg"
     },
     {
         "id": 3,
         "title": "Омлет с овощами",
-        "cooking_method": "1. Взбить яйца в миске с солью и перцем.\n2. Разогреть сковороду на среднем огне и добавить оливковое масло.\n3. Добавить нарезанные овощи (помидоры, перец, шпинат) и обжарить их до мягкости.\n4. Вылить взбитые яйца поверх овощей и готовить омлет, периодически помешивая, пока яйца не застынут.\n5. Подавать горячим с ломтиками авокадо и свежими зелеными травами.",
+        "cooking_method": "Взбить яйца в миске с солью и перцем.\nРазогреть сковороду на среднем огне и добавить оливковое масло.\nДобавить нарезанные овощи (помидоры, перец, шпинат) и обжарить их до мягкости.\nВылить взбитые яйца поверх овощей и готовить омлет, периодически помешивая, пока яйца не застынут.\nПодавать горячим с ломтиками авокадо и свежими зелеными травами.",
         "prep_time": "20 минут",
         "image": "https://cdn.tveda.ru/thumbs/bab/bab3a1d5fd1520203899b3a339953251/11798b9db096fdadc0b40bf105679217.jpg"
     },
     {
         "id": 4,
         "title": "Салат Цезарь",
-        "cooking_method": "1. Подготовить салатный лист и положить его в большую миску.\n2. Добавить нарезанные кубиками куриного мяса.\n3. Порезать хлеб на кубики и обжарить их на сковороде с чесноком и оливковым маслом до золотистой корочки.\n4. Посыпать салат хлебными кубиками и сыром Пармезан.\n5. Приправить солью, перцем и заправить соусом Цезарь.",
+        "cooking_method": "Подготовить салатный лист и положить его в большую миску.\nДобавить нарезанные кубиками куриного мяса.\nПорезать хлеб на кубики и обжарить их на сковороде с чесноком и оливковым маслом до золотистой корочки.\nПосыпать салат хлебными кубиками и сыром Пармезан.\nПриправить солью, перцем и заправить соусом Цезарь.",
         "prep_time": "30 минут",
         "image": "https://images.gastronom.ru/ApmxtW3a7fVw3qVqvZfvEBmaXaYCeBbYheJU4ERdsAc/pr:recipe-cover-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzVhNzFhZGY1LTM3MTYtNDlmMy04NDNlLTAwMTg4MGNiM2E0OS5qcGc"
     },
     {
         "id": 5,
         "title": "Суп-пюре из тыквы",
-        "cooking_method": "1. Нарезать тыкву и картофель кубиками.\n2. Вскипятить воду в кастрюле и добавить туда тыкву и картофель.\n3. Варить до мягкости овощей.\n4. Слить воду и размолоть овощи в пюре при помощи блендера.\n5. Добавить сливки и приправить солью и перцем по вкусу.",
+        "cooking_method": "Нарезать тыкву и картофель кубиками.\nВскипятить воду в кастрюле и добавить туда тыкву и картофель.\nВарить до мягкости овощей.\nСлить воду и размолоть овощи в пюре при помощи блендера.\nДобавить сливки и приправить солью и перцем по вкусу.",
         "prep_time": "40 минут",
         "image": "https://img1.russianfood.com/dycontent/images_upl/545/big_544330.jpg"
     },
     {
         "id": 6,
         "title": "Рататуй",
-        "cooking_method": "1. Нарезать овощи (баклажаны, кабачки, помидоры) кружочками.\n2. Выложить их в форму для запекания слоями, поливая маслом между слоями.\n3. Посолить и поперчить.\n4. Запекать в духовке при 180 градусах Цельсия около 45 минут или пока овощи не станут мягкими.",
+        "cooking_method": "Нарезать овощи (баклажаны, кабачки, помидоры) кружочками.\nВыложить их в форму для запекания слоями, поливая маслом между слоями.\nПосолить и поперчить.\nЗапекать в духовке при 180 градусах Цельсия около 45 минут или пока овощи не станут мягкими.",
         "prep_time": "50 минут",
         "image": "https://img1.russianfood.com/dycontent/images_upl/225/big_224713.jpg"
     },
     {
         "id": 7,
         "title": "Лазанья",
-        "cooking_method": "1. Приготовить болоньезе-соус: обжарить мясо и лук, добавить томаты и специи.\n2. Слегка обжарить листы лазаньи.\n3. В форму для запекания выложить слои болоньезе-соуса, листов лазаньи и сыра.\n4. Повторить слои.\n5. Запекать в духовке при 180 градусах Цельсия около 30 минут.",
+        "cooking_method": "Приготовить болоньезе-соус: обжарить мясо и лук, добавить томаты и специи.\nСлегка обжарить листы лазаньи.\nВ форму для запекания выложить слои болоньезе-соуса, листов лазаньи и сыра.\nПовторить слои.\nЗапекать в духовке при 180 градусах Цельсия около 30 минут.",
         "prep_time": "60 минут",
         "image": "https://static.insales-cdn.com/images/articles/1/7431/4603143/large_a-11.jpg"
     },
     {
         "id": 8,
         "title": "Суп-харчо",
-        "cooking_method": "1. Обжарить на сковороде нарезанный лук.\n2. Добавить мясо и обжарить до золотистой корочки.\n3. Положить рис и варить до готовности.\n4. Добавить специи и тушить еще 5-10 минут.\n5. Подавать горячим, посыпав зеленью.",
+        "cooking_method": "Обжарить на сковороде нарезанный лук.\nДобавить мясо и обжарить до золотистой корочки.\nПоложить рис и варить до готовности.\nДобавить специи и тушить еще 5-10 минут.\nПодавать горячим, посыпав зеленью.",
         "prep_time": "25 минут",
         "image": "https://static.vkusnyblog.com/full/uploads/2011/09/kharcho-new.jpg"
     },
     {
         "id": 9,
         "title": "Борщ",
-        "cooking_method": "1. Нарезать мясо и овощи.\n2. Вскипятить воду в кастрюле и добавить мясо. Варить до готовности.\n3. Добавить нарезанные овощи и варить до мягкости.\n4. Приправить солью, перцем, укропом и лавровым листом.",
+        "cooking_method": "Нарезать мясо и овощи.\nВскипятить воду в кастрюле и добавить мясо. Варить до готовности.\nДобавить нарезанные овощи и варить до мягкости.\nПриправить солью, перцем, укропом и лавровым листом.",
         "prep_time": "90 минут",
-        "image": "data:image/jpeg;base64,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"
+        "image": "https://s1.eda.ru/StaticContent/Photos/120131085552/171206075835/p_O.jpg"
     },
     {
         "id": 10,
         "title": "Пицца",
-        "cooking_method": "1. Приготовить тесто: смешать муку, воду, дрожжи и соль. Вымесить и оставить на подквашивание.\n2. Растянуть тесто на противне.\n3. Намазать соусом томатным.\n4. Выложить начинку: сыр, помидоры, грибы, колбасу.\n5. Запекать в духовке при 220 градусах Цельсия около 15-20 минут.",
+        "cooking_method": "Приготовить тесто: смешать муку, воду, дрожжи и соль. Вымесить и оставить на подквашивание.\nРастянуть тесто на противне.\nНамазать соусом томатным.\nВыложить начинку: сыр, помидоры, грибы, колбасу.\nЗапекать в духовке при 220 градусах Цельсия около 15-20 минут.",
         "prep_time": "60 минут",
         "image": "https://www.tokyo-city.ru/images/interesno/Pitctca_-_natcionalnoe_italyanskoe_blyudo.jpg"
     },
     {
         "id": 11,
         "title": "Гуляш",
-        "cooking_method": "1. Обжарить на сковороде нарезанный лук.\n2. Добавить мясо и обжарить до золотистой корочки.\n3. Порезать картофель, морковь и добавить их к мясу.\n4. Залить кипятком и тушить до готовности.\n5. Приправить солью, перцем и добавить зелень.",
+        "cooking_method": "Обжарить на сковороде нарезанный лук.\nДобавить мясо и обжарить до золотистой корочки.\nПорезать картофель, морковь и добавить их к мясу.\nЗалить кипятком и тушить до готовности.\nПриправить солью, перцем и добавить зелень.",
         "prep_time": "120 минут",
         "image": "https://cdn.lifehacker.ru/wp-content/uploads/2023/09/101_1694005214-scaled-e1694005280253-1280x640.jpg"
     },
     {
         "id": 12,
         "title": "Свиные ребрышки в медово-горчичном соусе",
-        "cooking_method": "1. Приготовить маринад из меда, горчицы, соевого соуса и специй.\n2. Замариновать ребрышки в маринаде и оставить на несколько часов.\n3. Обжарить ребрышки на гриле или сковороде до золотистой корочки.\n4. Подавать с соусом из меда и горчицы.",
+        "cooking_method": "Приготовить маринад из меда, горчицы, соевого соуса и специй.\nЗамариновать ребрышки в маринаде и оставить на несколько часов.\nОбжарить ребрышки на гриле или сковороде до золотистой корочки.\nПодавать с соусом из меда и горчицы.",
         "prep_time": "90 минут",
         "image": "https://swlife.ru/image/cache/catalog/recipe/05/38/05383d547e8dfe07aa55e1ebd972fbbb-0x0.webp"
     },
     {
         "id": 13,
         "title": "Том Ям",
-        "cooking_method": "1. Довести кипящий бульон до кипения.\n2. Добавить лимонграсс, листья каффир-лайма, имбирь, чили и лук.\n3. Добавить креветки и грибы и варить до готовности.\n4. Приправить соевым соусом, рыбным соусом, лимонным соком и сахаром по вкусу.",
+        "cooking_method": "Довести кипящий бульон до кипения.\nДобавить лимонграсс, листья каффир-лайма, имбирь, чили и лук.\nДобавить креветки и грибы и варить до готовности.\nПриправить соевым соусом, рыбным соусом, лимонным соком и сахаром по вкусу.",
         "prep_time": "30 минут",
         "image": "https://cdn.bahroma1.ru/goods/tom_yam_nov.jpg"
     },
     {
         "id": 14,
         "title": "Маффины с ягодами",
-        "cooking_method": "1. Смешать муку, сахар, разрыхлитель и соль.\n2. Добавить яйца, масло и молоко. Тщательно перемешать.\n3. Добавить ягоды и аккуратно перемешать.\n4. Выложить тесто в формочки для маффинов.\n5. Запекать в духовке при 180 градусах Цельсия около 20 минут.",
+        "cooking_method": "Смешать муку, сахар, разрыхлитель и соль.\nДобавить яйца, масло и молоко. Тщательно перемешать.\nДобавить ягоды и аккуратно перемешать.\nВыложить тесто в формочки для маффинов.\nЗапекать в духовке при 180 градусах Цельсия около 20 минут.",
         "prep_time": "40 минут",
-        "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUUFBcVFRUXFxcZGhkdGhoZGhkZGRcaFxcZHRoaHRgaICwjGh0pIBgaJDYkKS0vMzMzGSI4PjgwPSwyMy8BCwsLDw4PHRISHTUqIyk0MjI1NDQyMjIyMjMyMjIyMi80MjQyMjIyMjIyMjIyMjIyMjIyMjIyMjI6MjIyMjIyMv/AABEIAJMBVgMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAEBgMFAAIHAQj/xAA6EAACAQIFAgUCBQIFAwUAAAABAhEAAwQFEiExQVEGEyJhcYGRMkKhsfDB0RQjUuHxBzNiFUNygtL/xAAaAQADAQEBAQAAAAAAAAAAAAACAwQBBQAG/8QALxEAAgIBBAEDAwIHAAMAAAAAAQIAEQMEEiExQRMiUWFxgRSRBTIzQqHB8BVDsf/aAAwDAQACEQMRAD8A6q2Ioe/ckVEjVvprltlZhUvCBTIde0Vi21G9YyVpeG21SmxyY37QkGBQmJfuahxmYLbWWNKObZ+XBFs/bfehZ952gWZoXb7jHXC6SOa1xaDSaWvC+Iu6SLgjtV5cYmiye0bZqe43JsGPRFJHjDD3lDG25A7U2YFiCd6W/GeLIQis053OLhMCtxBwGJb1aySakwNk3Lkk/FUa4s6z7mrfLsaLcE/zeu5sXxxIi5M6Hhg1lAela43N0uJHWqi7n6vbCig8MA29fPZ925gepbjPUOsESTUdx9TBajd9Ir3KF8y6Pakolm40mOeVYSE4qi8S4cwTTtg7QCCqnPcKGU10HHsigbMTPC0G56q6ELoA24pE8P5c3nNsYBp7WyAADUdksdsZxXMps6zPQpiueYjxZdVyoO011PM8tR0Owk0j4vwyjmBbkzGw3q7Ai1Z7i3sjiX/h7xGrIATvTSL+pdq5vhvBuJttNsBR2ZxTTlF67bOi6sdiNwfrW5FXwZg58SyS3DSaId+1aX7BbcGtsKg+tRkVxGE+YO9ptWoitcXiWA4NGtdg+1eko423oGFj2me3V2JWW8WhG43rVb0mFrZ8MknuKAF0W39qUL7Yw5l7GsrCBvNOGVZmrIJNJmIxtuZNGZVcFyYNU6fOcbe03FZca5BTR4XGofzCh8RmarxvVB/giRyRWi2iDpJqp9e5FVUQukQHu4x2sw1LMRQd/Gt0oG/jAoC9TXmWXlM6jxQNqix27pq4FUFqhvmsw9XNB4hR160f5ysdjVVicKXckklQNgKVkf28cw8ffxAL2FkkcgVmEwKuRvp01tjX0+rif3rTJbwbWGFSqyXVShwahuGtfjjgGJ71T5imsNAgjj3ip8Zmflwi9WHPuauL1gFZiCRNbtD8313BuuJzjN878m2u8EtuO2xrKuc7wNm6F8xASDWU/GcAXm4tlyXHVLwohLoqoYEVslwiqQ1TxQGWV9utV13FRUvnSKGupNSap2HIjMSDzETxnmbH0iYqPIcRbCKTBIphzzJ1uKdq5rmeHuWiQJFU6PKjrtHBgZkIO7xHfG+KLaERRWG8Wo4gHeuRt5rHqaLwVu5bYMFPNU5dNjrg8yfHlYt1xO2YPGLomue+L8bcdyqgwetMHh4Mygtt7VPm2FRuAK5qZfRazK9pcVOaWsueJitRYeeDTyMGB0rZMvXkinf+Q7uAdP8AEosvwZjcUTq0Gry2iqKqMcAW2qYZfUbmNCbRB798mmDwhht9R60u6affC2CLJtsByaaB0BBPHJjD5sAUNiHDbUboVZg7iASRMz+goRMKbiliQoH5/wDV8AUbtXEWGHczDYYLuqz8VJdZmERFFW1ULpEz9tu5NS2cCFaQ8rzvv9qBVYsNoseeRBbKvZ/EgtWoUahUlu0qmQBRL3lRdRA68mOKXrHj/L3bTqKspKkMh2IkdOBtVYQke2IORviXjqCO88UO9tQxUAcDnpRuCxNm8JturewO4+nNR4vLp31Ge47UrKjjmp5MguialZ5zrIYD6VHZsPOoHY17mSs1vSvQiWPIg7gxwaPBVFVV3IHHNSrT+ev9yneQOB3KsFwYYEioGfQSVNW9/DmdRJMdBIApdu2Wa45VgRMEcEEfuPevMmzioxW3QHE4pi2xrxrwMA1rij5bgOIMSOxHtVbiswBbap9t2Iy4biLasIrzKsWbBI59qrEzEaqiuZqFcEjYVuLG6mhBfaeZ0TA5yjD1+k+9StiFdjp3pKxebWntjaD09++9Mfhyxpthj171e2IhRu8xIAuxN8crF9hO32oK8rIODJq5x2KgQBvVZYJuPBGwqT0QWPkx247YXl1twsk/NHHHrbEtxUSXwARER/Sq5mt3GKyxFEzDGQB3A27hzIc3zFWkCIG4HvRGVYN9Bc7Fv2qPMcPbQBAB79+Kpl8SOLyWFZY4JPQCtTENxbuYWoAS/bJ/WLjnVHTt71FjfEdm2p1sBpOn61anGIFgsCYrmnjLCeYVYCAGmfg1ThxIzAQGYgXPcZmL4i4xCEIPwnjV/J/WsqxyK5aZPUw22g9I2/pWVd6OIcbZ4bz5nRHsg0HdsEVcaK1a2KQUuLXLUoSSK91TVnewoNAvZ01PmwllqUJkEhK7b1T5jk6XDuAatnvgcmoXuA8GuRlx5MXNEShCG4lKnh60N9Ir18pt9hVozVBduAUj1src2YfpqIKlvTsK1uW6lNwVDcu1oLEzeBIXWKhdtqkuPQjvTkBMwmQXHIoZbTOwVFLMeABJNSXjTZ4OyNgf8Rc1LAOgcSCN2PtB4q3GsRkfaLMAwXg5/MXzHXRydJkzG6+3zTvYwvlW9KBQD26dqrrdlrl6VMJ+aJn2G31pgCBAYknbae3zTtOfVBIHHzckzNVD/EFsWNShnJIMGOASOp679qmVQsgAk9BPQVPhm1KY+P5HFaW10LpZhq53JI256VSFsj7dyYuSTf7QNvUPVtyOvbfccAVV5Tg7lsCL5uLJ1Fok++x2MRsNqs8UdLifwmBpiSZMkjtyN96ofGN9kFvyx6tQERyCD7/3iDQM2znz19Y9Bu4+Yw38OjoQQQGBVoMMdoPqG45pExD4PDrdt38IVtvc0LcuWw2vSNQ0ustA3IPyacsHeLImsHUV9WwG/wAdo2+tAZpl9jF29FyHUGRoaCrLtKt359tyIovUFiyQPpxM2GiIg/8ATjODavwzSGby4gAqWErJYgEbDjc6uO3WbTNrLM3ojjsZ/auV38m/weIV9LXLfmAq6qAbbQCqPHpEyfVEbdNhXScuYMispMxwxO3tP9a9qcoZlK8jvuAEIBvuHYtlEgECfbn9N6p8ZbefQIaORG336UdizKrqaGHbcT1HxXuG41H4A7xO/wC9RsPVyVdeePAjcZ2Lc0W+ypDqR023qgvKoMrO3XqesGd+/NW+IxA3WJkdWJid+vTalvFL5a+kA22mJO6xyonpTMr/AJjsa0Lmma4VbulNcXIJUnttM/zpSbmtm5bb1dZgjgxzTdhr6Fw6t/mBNJXpAJ3j61rmeX+ehWAAOG6B4+4H96XjfmyIxhxEBbpmiFMgk9Ki8khip5BIPyDFMuRZILwIJjaq96KwJiqJBqJ1/MrjISqH0n9ua6P4Vz1b1hZMMBEUu4rwrdtalBBUz9q2yO2MMWtsAGIkdjTtTlTIntPUXiQqbPmNWKd9yp+9XOROqqGPJG9JjYt2cJO1TYzxELJ09tvfaosJ93AjnF8RrzDEoCTwDW9vG2fLDIyiBudqQ/E3iOzdwkpci5tA6nuKQMNiLjLo8xgD0kxFdBdNv5MA9hfMcs+8TXLl0+TuqmC3TaqfA5TdvXDcUFjy28RP9KHw1jywCh1KfxR0+P1plfMbVi2HsMQxWSGJg7e9VDEqClHMEo390aPDGUlE1XXJ7Kfy/XrReaYK3etkaTHAj96RL/jB1uW1Vg1squuOhPIrpOBxtp0DBxBAMdq5mQvicHb3zDABHdzj/iPBPg7oVZhhI+J/n3rKd/GOIw9wpqXUVBEx36fpWVamptb2wfRbwZ0oGsLVoxoDMsSUXahRCzBRJ2oCzJMTmSJyaX8yz1elU+Z325JqgxuPAFdRNKiC/MjOoZuBCc0zdjwaHyTP2NzQxmqHH4qQYobI7h8zUeJpObFjyjYwjMeR0O4GdPxGN225qmxOPIbc0U2IQ2xuJpbx931GjXR4USgomHVZGayZanMd+a9OPFKFzFnUAO9NmXYUFATXE12lxq1qJ0dNldhRmt/GGNqiw5djxVyuXqaJw+FVelRhABQlJu4R4ZyQOWuXQGCkaVPBbYye4G23vTVavmSrERB2jkA8UFkl8CUHUSPkf7VlprbYjRcXciFkSurkk9jHFE3FKPP7SduS27xLbJ1At6jtrYmfaYArfHX9MMYHf/b60Vh7MGCNhIAP+n2qPMcOCOY6idxtVQRkwUo6kgcHJZ8zzBW2IkEAHoBBj5mtrts6pLADpt+56mtsJBQadoEEfvVPnN99lQT12McRP8jevMwTHur/AD3PIpfIR1C8Qik6tILCQGJnpuB7/SqnEMgdSRLagfxTBAPQ+3Md60wuM/IQ0zJjad9vgQvx35rzF2ZZV0kmduI3HWeQOfrU7Puoj7/mWY02miZNjM3tqJYANO2/LcdNjUlhGVS4Kyy+sKZgjckTyefmKAxOVqySR6kbUhHKsp2A24EcfFDYXGqoaX2QjUdhq1cQN5G/Hua8MhLe6bsFcSzXEEtCpqM9QRuIP5gAeu4mpEzEglVU64JIjcfTpvXtjMECF53Ub7EnTGwA6ccVpiLxlW2Hc9949tuaXlxkC1JH7TB7uCIczEqC67+mfvUg9Q2BG5idhtIEe0UNcvAqVLCSI/gqL/1UW1bWG2H4huIHxx9qLDkQMQx8fTxFlGrgSK/l2gAlhqXtMsJM7zvz+9B3bdsa1dpV5Ok7xEGI7cb1aZtfUIGUjVA0mdue3alfEXyVYkyusk+3O2rpNBlKBqEdj3MtmbWbKWmdjuCJU7THYbdK0y7MJUoxmeCesnrHFW2FdWQMQG2gbCI7D7UC+Woz6ln08r0I6c8UoK1CjGeYk3V1XWJEbkH6GmrKk0rIMVvjPDaQ1y2TO509JHIB60JhLzAARVIG4wepY493ZDvvXNsVmNwX5f8AKdPxXSrdyRSjnGUL5jNHPNMQpjPuHcBwSOIbg7gIDjtVHnVqf8zqN63W95ahdX+1b28UtxCNjQ40bG24dQt3ET8dd1tIXT3iiMFYBEtsO9Xpwak7gVpmLi3h2TSIJ2Paul+oD+0dxakIS0Bu4Z1HoJZTyBVjay65ilAjQttTv1IoDw7irjSiLqPc064e4FGlyASOB1mlZdRkxe3v6x65BkFzn+HcITpXVG4+aavCOKvFyzj0Hp8Cr63klsAwgE9aKTRaUBRuB+tTZP4iuRStVBGMBrEAzHBrdAYtp3+Kyhc3vOwUrzJkVlex5faOZttOsbGgM1wxZTFGn2qJnPBroK202JAVsVOXZ1ccMVYGlnFvXXcfk6XDxVPc8G22O4qo6yxyIgaejxOc5bg/MO/FMOHyUAbCnDC+FUt8CrRMqVRuK52VsjPuBlSIoFGcsxOEuI3UiqvGB/8ASftXX8TZsDZitRpk1l910mn/AKpwtERZwKTxOS5Vlbu8lT9qcrOEuKAApp2w2S204AqwXBJHFSZAcpsx+MjHEW1bfqKLt2zTXcyxTwKAu4ArSThIj1yqZL4eRRqkAttzzHWpb7RiraaQPVq1aZnYwJ77H7VWXGe3/mIJZAx0nYMNJkT/ADik7LvGq2Dca551y8QGUXH1IoBYengDncAdPanpiLqKPRES6nefqJ1jMswFsjrO3x2qrzjMC9oXLDBtDKHUyG9UDTEfi3Bg9DS5YzkX1Fxzp/NE9O9X+U+SzeZC6oClupA3E94nae9BhfIzsG6vj6RPphKPkQzLHOgmIMxG3Xef1qHFXVDDWY6jgT237/HerEhREAeqY/8AKBvA60sZ2wYEhiAnwsE9ietL1JKKIzEA7EwK9ecs7mFC6jM8xMdN6u8m0m0jFpPcbwD0G2wEcdIFJWNS/cuAhdK7epjCqOrFTuZkb/tThleSi2jFgRJ39R6xLaRtxHxHG1KwJXMblYeZJj7nlozK4K7QeQu3cnc9d+9LeAxoOu4kbyxk8d9o22/WeaLztbaBGZwSSsKzs1vUzAA6j0naY+Ooqo8SLZs6XR1DH0sNQ3nknsQZ+1YyMW3fiap4qXXhZWum47iVVhHG5knfvpI26cVbZswYAiDqjYfp77RVd4TDW7b6XNwNpZRPJI33PxwJ2qXEYK5cJbT5aluv4gD7CvZW2IFqCpt7M3wqNqYBSYie/q434oq7ZYHTHA5nb4nifao8LZFkBVJI6kmSSeZmrO9iFMeo78aQCDI+DPNSBMORSSaIMJnYEUJQ5jhDHOphuFjtuduvXesRVa0AwbcQdQIDd+RxU9zEReI1FmXiI22YiesAQI968xLjSWYwxJ3PHeft1rTjSiQf++8apPFyApbtqHDLAAAVSOSdhv8AJ6VMMwQLAG56T+Ijt8TS7iLYVZdjMaWUCQrAHS08HYRv3FBYzEaUcKGAHXVvICljtuNth33rV3VSn/f/ANnmrzGDGYlhBFxQygnRKiV33if5FR5aiXUFxQYaYkc78jup5B6il3IcCLzqWnSZJEkyDJbWTuSeu/WnpAAIG0cDoPiqsOPbdm4JNwcYQCl3xJhyFkU0s9VOb+pCKZlAqYJyTMrnWd+DQeHvEMNLQKJzuwUuEHgmqm8+mAK6mJAyCvMjyPtPMZcTjRb0yZqa3iUvoQ3TgVQZfhWvEDeKaE8OKIAYhoqXL6WKgTzGrb8+JXZHm1vC3HkSrCPg1ZjG28QwYCCD+KelD4rw6EHc9felvDEo5UEgA0QXHmtlPMElkoHqdXwN7UpCtIFe6CeaU8pz1Lb6SSZET0pttXxc46Vw9RgfExNUJbiyBhBvJgmvanuqZ5rKTvjajvbukUQHDVVreFSC6K+h3iQFJY+XHFeqw4NBWcWQd96J1huDWhgeoJUjuEBKovEmNdF0W+T1q21lfcUr+J7rK6uOKo04VnAMRl3BCRErNTdBkmT71DlXiG5ZcEHbqs7H+1T5rjC5k7GljGqSdqvy4lI5EkxuZ3vJcyTEWluKeRv7HqKsgtc//wClzMLLhjtq2+1PYu1x3AUkS4WRcIFeOAeaHN8VW+IMWbdokHc7VqNuYKIJUgWYDneJVvRbaN4Y/uK5l4hyVhdBQQSfQ8wNMw20xI7c700NZuMpf8veh8Vf8zDFCDqtXAwPYMd66GTCuNAyj7wMGUu+1j9orF/KY251KR+UMJEmQCeYiT03HwJ7ecXrZi0WVT/rMkjrJ6/SiMFj/JxFokmLZ9RJEANK7k/hUSNuu1HYfIRfYmzoNqD+BuD2K9OwIPApSFAbruXbQotoblfjK4gAJcrvIIBA5G0k/wA6U7ZPdXFIbhtBYYQrQ2xResbkDY/FLGSZFbLNrsMxT8IkLqiBvPSRI4O9OuW2wtof5RtHiJnbiSa9qseMpdcxeR0A9o5gmLuW1cKzKGaYRiNTidoHb296GyrPbOIW4uv0oPUTA3P40/1AD07kbyYrn/jy/iExd5bjmC0ou2g2/wAmx52AB9waosJmF23uQkMukLcghkiQukDYbgj8I3PSakGmBJ57lB05ONTfYuX3jDxHZtlrNq35qkh2dSUX0N6QDB1DUJJ4PTnZNwN0XW9K+vkyFACqsk6iYJ26+0djb4HCW8XiUtEOnmBtUE/iVCYVAfSpI4JY9z2mwWANu2lxktpLMv8AmKQtwKZYEIJKmVERJ09zVeJERQok+xy3f4jj4T8cYW2iWmtXF2A1kho22Mjc/QdDTlh8ws3hNpw6z34399+dorhuHsMWK27cgTpJ9LREFtPEx03Pv3b/AAbibi228wMpVhGoQSu8iIBIkDmufriuyxVj/cNcQY3REfMQ/Qb8/wAmoGZlRlVgCPwtE6fvz12qC7f9MzG8+3vUV68IE7Abb/evmw5BJErXFxU2y1CSWYqXgqzAn1eoQ0GR3H0+lVecY5rd2QQywvpJYid9yO/H8NQ47MBAgbQRI24pfxFwGILADfYD9+v1ro4mLqARUFl2mTY/MX1EXSzKxn0wI5gAE9ARvud6huYkaYiBIPb4HUSd6H1MRvv7kAH9OaxLeogRwRA7GNqfQrmLo3Gnwy+lS5gatgOux5q68+eDVOtkoiqOg/5rVbrKaNeBxPGXbNQ19JoW3jO9TLfBrx5noo+Jck1+pRuKRcZYKkqywa7U5BquxeRWrnKiqcOfYK8RGTFu5iR4TTSQI5p2Wws6iN4oO34Z0GUaKIGBvKedQqDVq2R9wjMftFTTFWwVMc1yzMLTI7bHk10y+1xeVoC9hQ3NuZpmjyNguxYMzIofqc9whYuvYH9q6DlmZoI3HFB3cpU/+2R8Cqx8vKPKox+9VZnTUCjxF41KRxOInjisqts3H0iENZXL9GV750AiOa2U1O9ojY1AyxXTIiQZut0VuHoXUDyK8ViOK8GIm1LIYroaCzGylxY5PSo41VoLbDg0Qc3YglBUS87ywpvBNLQwtx2gW25rri4UNswrdMpUbgCq/wBW5WjJv06g3Kjw5Ze3bVQp96ZbIY81Jh1CiCBRltB0qfbuNxpbaJEMOetV2f5eblllXkbj6VdrtWlw0YQAhh3FlieDOR43Nblq2VPxHatPDGZjzvLubpeU2yPc/hP32+tN3iPwyt4ll2NJuI8J4hWDIwBUgg9iDIP3qx9UrYyrcXJ0wlXDCL/iC263nDK5gFdhvuTz8f0Fe5NdvC2627r235FtTpNxNtRWN9QjoZIG3FM/jhbrPZuhD/mW/wDMVTy6QGH2pTuYoC2LPlObvmBrekMHRuNGnT65Gn7e9LwMGUGWua58GdX8JeKD5luzeuBzdkI5DLBUAwdQGotvuO1Px0uAZBjtv81822nxVwkMbguKG0kj1QIBXuOeRxXW/wDpfjLrYfTdLEhVKyQQqGdLTydXcyYApzpuBkmVADYlr4zyK3iMOSyEtbBKFPxgcsAOGmPwnn25rg2ZjytaDUJgSdSe+9thMwfpNdj8V+OVSy5w0vcS5o1FXNpWAJYlgPVAHA79t65nk+UPmOInEYhJYMwAVh1khUKrJjcaZ2BP5aFUrmOxZ3XHsPR6+kr/AAxk1zHYhLKkW0IJZ2lgAijUZEEniBIAkCe/Ws3yRAltZZhbTRI2LqQAxMR+LTG3cit8gytMuRRaXVrUeYXYSpUn8KheGLTuegoy/jCxAUbn32JY9ewrk6/WIG2KefpHafG6tuHUo8Nl1oLr8sjpDCACOqyYj+nMcADBLNy5FssIJEbKu+0kfSmq7ata5DEGIgEaZ3k7jjnrQmSKUTUonXwB3gdf71zmdb7+nzKNxIuRYi5pT1iCP+aosZmJYkjcHjgb79On/FWWa44XXa2BvG/PJG5kbe1Vn+GCjpMHbvHU+3T60hEVDHqx2ymcO8ajA9unFakADv8AU/QTRbXQxlZ2jpAOwk/r80O1s7kjtv7dvargfniLPMiK7xvzO5n6ewFWeT4M3LgH+kSfbsKBVI+lN3hjD6bbXDyxj6CtHJAijxIL9q4nSRUHng7MIppZQelK/ifMbNk6Auu4dyBsEHdj0+KoTE2RqUcwDlCi2npsHkHatRbg9qq8Nmkj0nSed99qjzLOX8pgFBPGpDwOpjoY+aoOjyKQCIoalDLR8xVPf4/vUlnOhE6dvnekS1jQ53bYDipzitJEHar00GIDnmSNq2J4nSMFjUubqfkdR9KqM0zr1m3bYAL+I9Sew9vek7/1w2T5ifUd9uK0yTEh2VnMaiAWPQnp8+1ew6BVyEtyPE9k1RKCuDLfE5gpBnVPeZNZlWZ+XsHZh2eP1rbNbYAOkFhH4gpiO9VGX4U3X0qYHVo+wA7/ALVXkwqRVSdMrXdzpGBdLtvWoHuOxqX/AACsPwj7VQ2nt2F0W9UiNcsxkxyf7VsmYoDsonkkSD++9c5v4W18GWDWD4l8MvUcCsoHCZwIgkn9GHz3r2pjocgPQjRqUPmOz2QR3oO7h46bVYnbetSZrzKIKuRKg2wPrUL4U9KtblgdqEKQTzv/ADilkfMerX1AIIO4rxdjIo5rB6jb9RQrr2r20iECDNlcntW63GHXbtQrHuTXqHsZr26e2yxW6DAjet1uOPiq9PV1g0QjsvJrQxglRLK3iAealIqvWG3Bre1cK+9NV/mLKfEJZBUFzDK3NELfDe1RXlkc1rEVBW75iz4i8P8Am2tKMfSSwWdmnkfpSFaxGIwd+F1Jc/LqE+k79fiuuKSOxqvzvJUxaQTpuKDoPb29waQuQp1HE/MU8uz/AAd26FxuGT/EM3ll2WdisSwJ9A3IjfmaIzrD45XuLaulLSgaRb9I0ktLaQZaNuvPAq+y/IVvIBi7KebbIAYQSQNxv1HzSz4pwWIwNzzcPre1DSpJZRMGImYmdx/WnJmb+019+p6sbNx+3j8RBwGKuuxsAnzWZokgrcLSQpHAM8dN4MRVu/iS+gCsWQrEIrMj2ri+g7HgaQQBvtztFLuBvu183wdLq4Zdz6WnUDPPI9qlxLlrhcnUxMn3P87/AFq/cREBL5A4B/MfcnxOMuFS4uHV65JXcMx3jpt0+Kb7tnbeR7j4pN8P+LraIq3RsAAOSY55+ZEcccdXjBY63iVZrc6ZKgsIVu5AMbSCJ9q+b1ukcuWoD7eZd690albilMMsHkcwSAOnG+/NV+IxN3VpVdKEeozAkf8AiBJner3H3EtneY2ExO56k9AKS/FedNZvWwCuldyseohxuZPT43qXBidnKj6wi67bg2Y56LD6TJeP9ICiQIbf77UOM+Rz6Q7HbiPY/HH87VOeYj/El2UDUkKsNu+oT+E7z02qhDOh/FupPaJG0gg+3+9dnDoUZASKMkyallah1L/DHE3rsFygMsNvVpB/09N9pphv+kbgmI377Ut+Gcxtq7tcIDtA1MeQfyjsKZMS6hdjyeefr+lT6pSMgWuB9I7EwK3cHeCRzPT69adMtYJbVew/U0grd1vEmB1pjwOPZRB9Q/WhVdvc8TujJmOL8u1cuDfSpIHc8AfcikFMP5pUO0F2knqSYClj2JY/WKasU4u2biryVMA9xuP2pUfDtqR9elNPqn/UjbD5Pf2rt/w/hCw7sD8TnasWwB6m2YZT5cgbEf0/eqdsWRuSfjoe9XWYZgzGCeF52PT2pNzK+WbY7xHQ10MtASNLmmMuAPKQAa0VifzGjMPkFy5bVhyZ561Ja8N3yYOn6Heov1KDzH+kx8TbIsq89i1yfKBC9tRPQnoo5PXcAezhaxVhUCBTaKQF0JrUETuAo67GO496psKhtFbe4KASO7uTqP61e38s8q2LjssNMFTuJ6H61WgBAPzEsaJg1/NbbOPMuayI/wDaYEx7RH1qAYpTcD2hpB3O0SeCSB12/aqjMLwtyS0kmd+I9vpWZVimNsyjRJEgEAgiQQ3E8j7d6aqAGAWJjhjrGm3bfUsXPpBgmIG5/wB6o7uJVm9LSRE9Bt0IioWzEPbVdW6jn4/VTFVtx2aWU7dd+3t2phBAghgTLO/iwGI4+DI/TivKXDmR1MJggwfeKykkiME+jLN6alAnj6iq11KbjvxRNjEd64IbwZ02TyJPwa0uWdW4qRob+fyRWgcgd/5+1eNfiAL8dwZrZH9v96FdN+I/cVaMQeahuWvr2P8AY0JHxGq/zKi/hwOT/PeoGtsvuO43qzvWdjPHfqKh09ye3H70EcDADc616b9Sth1adwP0n6VEbJTpP7VlGFYkiXj+XY9u9TpiCNm2+eaEGojaRPbYfpWiMRyPuD/ai58zJbJHIb7bD7mt0xcbEfXpVWriNjHtU9u+G5j6/wB+lEDXUAqD3LBiGG3PtUfkvydqHCkbqfoaJt4gMNLDn+c0BRWPMzkdT0Mw5JMdev8AvUOMuW3RxHqIOzDfVG0TtU9nCIgITadz13PzvUd+y0SCD/agOMjkD/c8NpP/AAnC8ZlpR9NybTahMqSCGIl5B7AbfrtQOZ2zYdk/GogBwVhiVB5RmHXoTxXb7+T27n/cVD8rx/Y1VY/wTYYSqkHeIP4ZESP7irU1Bq2H7QXFklTOT5PjGUs52gQsAatRngtMDvHt1rofgzNrtyLLBAF0tIAHYR6j22kb1jeAUI/7lwH3IPTbeJmiMP4IZU0JdIBMzp9Q2ggMG/3pepyLkWqh4/atGNOKcSFUwTI9+OR7cb1zrxH4du3Lpua0LMRq32trHpXfcneZpxseHcSqaBiwPm3JH/2LHv1717e8NOyhXvuxmfwqDPeTO9c7HjyYmLKRzCLKRRiDewVlEUMiwGIZ3bRM/m33I9oM70qZlYm4Vswy8ynH0nee9dYXwHhy2p1ZyZMuxaasMJ4esWxC2rYHwP3q/Fl2c2T9+ol03/ScOw2XXWOyH603YLCXWCq5hRtAkfc1058ksuI0Rt02P3/vNV9/J2Q+kFl6bEEf/r6VmbOz+BCxYwvFygwWWqBx9P5/N6s7eAjeCB9D/wA0XZQLzCEcTG/f3+tF2roHJX222P8AQfrSAAY6oGLIXgkE/Y1UZlhJ3jUOCpMDTMgA9IMEH2pmNuSDwI4H5vqOax7QH5Ss94I5HTiapxZTjNrFZMYcUZzHM20sdmUf+Q2/SsyLJlvvqbZJmBy3x2+a6ObVs+koD8jjcdKJs21RtlA+ICntKnj5FPy6s5BXUnXTbYDh8uUgDTAAgCIiO1G2slnj7GjHzywnpYyR2BMfXpU+Gzqw5ADQTxq9P2NTDTN3X+Iw5B1EbxdkT23F62vOmf8A5Db9Rv8AQ0u3sQ1xhbDGSdh9P25rsWKUXFKMAynkGkjO8nGGVrqkgH0gEAsmrqD9K6Wlzg0p+0kzY+2lRgsusBSGAdhMOyhlDdgvMA9R+tG4jFMFI8y2F7MQBPH02qPLkspZnzQHH5Cpg++qeetUuLx63NQBrpDaRcjN3UqcxwDW5e2wDzuqkFTJ5PIU+/8AzWl2xiNMeVc1k76VLqR7FJH2rXF4vSNMbt+tOeU4c/4K1d1FW0fUwSB+gFR587IV2+eJRjxq134iplWQoZbEypPC/hbnkz+1ZTVlGGW4vqBkTueYn9qyqvTidxnVbwoBtmrKyuFl/mnUx/yw230r08VlZQmD5nh2itxz/O1ZWUMwwduft+1BXRDEDavayltHpIW2JrSJMVlZQrGmQqIrRG2b4/rWVlMPQmTRHMnfqP6VIG3Hx2HSsrK8JhkuGczz0P7CiX4+tZWV4zxk1htv52ok9/asrKMRZkbjc16nQe39RWVleEwya2gOoEdagU7xWVla/QmL5ki1vb/n61lZSfia0Eu1IyCOOlZWUIhnxAxs387CiV3rKyhE09QPF2FKMSATHPXp1qkw7Tzvt+3FZWVjxiQm05EievXfp71ZLaHEV5WUxOp5pBe9IYjaBt7cUFn7lbYgxJ3+/wCn0rKym4f6yxGb+mYrY7ZT/Olap/21+KysrutOYscPBmIdrBDMTpeBPIEcTzRHidAcLckTH96ysrk/+4fcS3+z8Tk2abKANqGHf+cVlZXZ8SCAXt2+tP1oxbUDYBFEfQVlZXN1H9RPvKcf8jQJPwg/NZWVldgyQT//2Q=="
+        "image": "https://media.ovkuse.ru/images/recipes/c78f0cfd-ce6a-4f83-80ce-03651fe5e9b1/c78f0cfd-ce6a-4f83-80ce-03651fe5e9b1.jpg"
     },
     {
         "id": 15,
         "title": "Шоколадный торт",
-        "cooking_method": "1. Приготовить шоколадное тесто: смешать муку, какао-порошок, разрыхлитель и соль.\n2. В отдельной миске взбить яйца с сахаром и ванилью. Добавить тесто и тщательно перемешать.\n3. Вылить тесто в форму для выпечки.\n4. Запекать в духовке при 180 градусах Цельсия около 30-35 минут.\n5. Приготовить ганаш: разогреть сливки и добавить нарезанный шоколад. Размешать до гладкости.\n6. Покрыть торт ганашем.",
+        "cooking_method": "Приготовить шоколадное тесто: смешать муку, какао-порошок, разрыхлитель и соль.\nВ отдельной миске взбить яйца с сахаром и ванилью. Добавить тесто и тщательно перемешать.\nВылить тесто в форму для выпечки.\nЗапекать в духовке при 180 градусах Цельсия около 30-35 минут.\nПриготовить ганаш: разогреть сливки и добавить нарезанный шоколад. Размешать до гладкости.\nПокрыть торт ганашем.",
         "prep_time": "60 минут",
         "image": "https://n1s1.hsmedia.ru/ae/d2/ec/aed2ecfde65b702070787c74794f109b/728x546_1_a5006e12738ca07a5d6df98754a63562@1706x1280_0xxc0jt2Ks_9272380379954763853.jpg"
     },
     {
         "id": 16,
         "title": "Суши",
-        "cooking_method": "1. Приготовить рис по инструкции.\n2. Нарезать лосося, авокадо, огурцы.\n3. Намочить водоросли для суши.\n4. Выложить слой риса на водоросли.\n5. Добавить начинку и скрутить в рулон.\n6. Нарезать рулон на кусочки.",
+        "cooking_method": "Приготовить рис по инструкции.\nНарезать лосося, авокадо, огурцы.\nНамочить водоросли для суши.\nВыложить слой риса на водоросли.\nДобавить начинку и скрутить в рулон.\nНарезать рулон на кусочки.",
         "prep_time": "45 минут",
         "image": "https://cdn.tokyo-city.ru/goods/800x520sushi_sake.jpg"
     },
     {
         "id": 17,
         "title": "Картофель фри",
-        "cooking_method": "1. Нарезать картофель кольцами или брусочками.\n2. Обжарить на сковороде в большом количестве растительного масла до золотистой корочки.\n3. Откинуть на бумажное полотенце, чтобы удалить лишний жир.\n4. Приправить солью и специями.",
+        "cooking_method": "Нарезать картофель кольцами или брусочками.\nОбжарить на сковороде в большом количестве растительного масла до золотистой корочки.\nОткинуть на бумажное полотенце, чтобы удалить лишний жир.\nПриправить солью и специями.",
         "prep_time": "30 минут",
         "image": "https://cdn.bahroma1.ru/goods/potato_free_nov.jpg"
     },
     {
         "id": 18,
         "title": "Сэндвич с авокадо и курицей",
-        "cooking_method": "1. Обжарить куриную грудку на сковороде до золотистой корочки.\n2. Нарезать авокадо, помидоры и лук.\n3. Разогреть хлеб на гриле или сковороде.\n4. Собрать сэндвич: выложить куриную грудку, авокадо, помидоры и лук между двумя кусками хлеба.\n5. Подавать горячим.",
+        "cooking_method": "Обжарить куриную грудку на сковороде до золотистой корочки.\nНарезать авокадо, помидоры и лук.\nРазогреть хлеб на гриле или сковороде.\nСобрать сэндвич: выложить куриную грудку, авокадо, помидоры и лук между двумя кусками хлеба.\nПодавать горячим.",
         "prep_time": "20 минут",
         "image": "https://api.miku-russia.ru/upload/iblock/783/783c315c26aff2aa3c2f567ba05abfa8.jpg"
     },
     {
         "id": 19,
         "title": "Паста карбонара",
-        "cooking_method": "1. Обжарить на сковороде нарезанный бекон до золотистой корочки.\n2. Сварить спагетти до готовности.\n3. В отдельной миске взбить яйца с тертым сыром Пармезан, солью и перцем.\n4. Смешать горячие спагетти с обжаренным беконом и яично-сырной смесью.\n5. Подавать горячим, посыпав дополнительным сыром Пармезан и мелко нарезанным петрушкой.",
+        "cooking_method": "Обжарить на сковороде нарезанный бекон до золотистой корочки.\nСварить спагетти до готовности.\nВ отдельной миске взбить яйца с тертым сыром Пармезан, солью и перцем.\nСмешать горячие спагетти с обжаренным беконом и яично-сырной смесью.\nПодавать горячим, посыпав дополнительным сыром Пармезан и мелко нарезанной петрушкой.",
         "prep_time": "25 минут",
         "image": "https://menunedeli.ru/wp-content/uploads/2022/09/Pasta-Karbonara-500%D1%85350.jpg.jpg"
     },
     {
         "id": 20,
         "title": "Карри с куриной грудкой",
-        "cooking_method": "1. Обжарить на сковороде нарезанный лук и чеснок.\n2. Добавить нарезанную куриную грудку и обжарить до золотистой корочки.\n3. Добавить кокосовое молоко, карри-пасту, специи и нарезанные овощи.\n4. Тушить до готовности.\n5. Подавать горячим с рисом.",
+        "cooking_method": "Обжарить на сковороде нарезанный лук и чеснок.\nДобавить нарезанную куриную грудку и обжарить до золотистой корочки.\nДобавить кокосовое молоко, карри-пасту, специи и нарезанные овощи.\nТушить до готовности.\nПодавать горячим с рисом.",
         "prep_time": "40 минут",
         "image": "https://petelinka.ru/storage/images/recipe/resize/resize_1572250687_13195.jpg"
     },
     {
         "id": 21,
         "title": "Куриные крылышки в кляре",
-        "cooking_method": "1. Приготовьте кляр, смешав яйцо, муку, соль и перец.\n2. Обваляйте куриные крылышки в кляре.\n3. Обжарьте их в глубокой сковороде до золотистой корочки.\n4. Подавайте с соусом на выбор.",
+        "cooking_method": "Приготовьте кляр, смешав яйцо, муку, соль и перец. Обваляйте куриные крылышки в кляре. Обжарьте их в глубокой сковороде до золотистой корочки. Подавайте с соусом на выбор.",
         "prep_time": "35 минут",
         "image": "https://fasol.tv/upload/iblock/71a/10rj9bsq25pae52qzxtlutzx66jo4kfp.jpg"
     },
     {
         "id": 22,
         "title": "Куриные котлеты",
-        "cooking_method": "1. Подготовьте фарш, перемешав мелко нарезанный лук, куриное филе, яйцо, соль и перец.\n2. Сформируйте котлеты из фарша.\n3. Обжарьте их на сковороде до золотистой корочки.\n4. Подавайте горячими с гарниром по вашему выбору.",
+        "cooking_method": "Подготовьте фарш, перемешав мелко нарезанный лук, куриное филе, яйцо, соль и перец. Сформируйте котлеты из фарша. Обжарьте их на сковороде до золотистой корочки. Подавайте горячими с гарниром по вашему выбору.",
         "prep_time": "30 минут",
         "image": "https://e0.edimdoma.ru/data/photos/0020/8141/208141-ed4_wide.jpg?1628834843"
     },
     {
         "id": 23,
         "title": "Сырный суп с курицей и овощами",
-        "cooking_method": "1. Нарежьте овощи (картофель, морковь, лук) кубиками и обжарьте их на сковороде до мягкости.\n2. Добавьте куриную грудку и обжарьте до золотистой корочки.\n3. Добавьте овощи, курицу и кубики сыра в кастрюлю с кипящим бульоном.\n4. Варите на медленном огне до готовности.\n5. Подавайте горячим, посыпав зеленью и дольками лимона.",
+        "cooking_method": "Нарежьте овощи (картофель, морковь, лук) кубиками и обжарьте их на сковороде до мягкости. Добавьте куриную грудку и обжарьте до золотистой корочки. Добавьте овощи, курицу и кубики сыра в кастрюлю с кипящим бульоном. Варите на медленном огне до готовности. Подавайте горячим, посыпав зеленью и дольками лимона.",
         "prep_time": "35 минут",
         "image": "https://s1.eda.ru/StaticContent/Photos/120131083619/170816150250/p_O.jpg"
     },
     {
         "id": 24,
         "title": "Пельмени с мясом",
-        "cooking_method": "1. Приготовьте фарш из мяса, лука, соли и перца.\n2. Заверните фарш в тесто для пельменей.\n3. Вскипятите воду в кастрюле и добавьте пельмени.\n4. Варите до готовности.\n5. Подавайте сметаной или соусом.",
+        "cooking_method": "Приготовьте фарш из мяса, лука, соли и перца. Заверните фарш в тесто для пельменей. Вскипятите воду в кастрюле и добавьте пельмени. Варите до готовности. Подавайте сметаной или соусом.",
         "prep_time": "45 минут",
         "image": "https://korchma.ru/wa-data/public/shop/products/10/08/810/images/2103/2103.970.jpg"
     },
     {
         "id": 25,
         "title": "Салат из свеклы и моркови",
-        "cooking_method": "1. Сварите свеклу и морковь до готовности.\n2. Очистите и нарежьте их кубиками.\n3. Приготовьте заправку из оливкового масла, уксуса, сахара, соли и перца.\n4. Смешайте свекольно-морковный салат с заправкой и посыпьте кунжутом перед подачей.",
+        "cooking_method": "Сварите свеклу и морковь до готовности. Очистите и нарежьте их кубиками. Приготовьте заправку из оливкового масла, уксуса, сахара, соли и перца. Смешайте свекольно-морковный салат с заправкой и посыпьте кунжутом перед подачей.",
         "prep_time": "40 минут",
         "image": "https://img.iamcook.ru/2017/upl/recipes/byusers/misc/6251/mobile/7dfe2c08e44a66a0950c8344f3fc4918-2017.jpg"
     },
     {
         "id": 26,
         "title": "Блины с маслом и медом",
-        "cooking_method": "1. Приготовьте тесто из муки, яиц, молока и соли.\n2. Нагрейте сковороду и добавьте немного масла.\n3. Выпекайте блины с двух сторон до золотистого цвета.\n4. Подавайте горячими, смазанными маслом и политыми медом.",
+        "cooking_method": "Приготовьте тесто из муки, яиц, молока и соли. Нагрейте сковороду и добавьте немного масла. Выпекайте блины с двух сторон до золотистого цвета. Подавайте горячими, смазанными маслом и политыми медом.",
         "prep_time": "30 минут",
         "image": "https://yastatic.net/avatars/get-grocery-goods/2805921/4c83b3ee-4346-4d32-b9b3-e4cf20b00106/464x464-origin"
     },
     {
         "id": 27,
         "title": "Курица в соусе терияки",
-        "cooking_method": "1. Обжарьте куринные кусочки на сковороде до золотистой корочки.\n2. Приготовьте соус терияки из соевого соуса, меда, чеснока и имбиря.\n3. Залейте курицу соусом и тушите до готовности.\n4. Подавайте горячим, посыпав зеленью и кунжутом.",
+        "cooking_method": "Обжарьте куринные кусочки на сковороде до золотистой корочки. Приготовьте соус терияки из соевого соуса, меда, чеснока и имбиря. Залейте курицу соусом и тушите до готовности. Подавайте горячим, посыпав зеленью и кунжутом.",
         "prep_time": "35 минут",
         "image": "https://cdn.lifehacker.ru/wp-content/uploads/2020/05/8_1588861610-e1588862142248-1280x640.jpg"
     },
     {
         "id": 28,
         "title": "Куриный cуп с лапшой",
-        "cooking_method": "1. Обжарьте лук и чеснок на сковороде до золотистого цвета.\n2. Добавьте куриные кусочки и обжаривайте до золотистой корочки.\n3. Залейте куриную похлебку кипящим бульоном.\n4. Добавьте нарезанные овощи и лапшу.\n5. Варите до готовности овощей и лапши.\n6. Подавайте горячим, посыпав зеленью.",
+        "cooking_method": "Обжарьте лук и чеснок на сковороде до золотистого цвета. Добавьте куриные кусочки и обжаривайте до золотистой корочки. Залейте куриную похлебку кипящим бульоном. Добавьте нарезанные овощи и лапшу. Варите до готовности овощей и лапши. Подавайте горячим, посыпав зеленью.",
         "prep_time": "40 минут",
         "image": "https://art-lunch.ru/content/uploads/2014/02/chicken-soup-001.jpg"
     },
     {
         "id": 29,
         "title": "Пирог с яблоками",
-        "cooking_method": "1. Приготовьте тесто из муки, сахара, яиц и масла.\n2. Очистите и нарежьте яблоки.\n3. Выложите яблоки на тесто и посыпьте сахаром и корицей.\n4. Прикройте верх тестом и выпекайте в духовке до золотистого цвета.\n5. Подавайте пирог горячим или холодным.",
+        "cooking_method": "Приготовьте тесто из муки, сахара, яиц и масла. Очистите и нарежьте яблоки. Выложите яблоки на тесто и посыпьте сахаром и корицей. Прикройте верх тестом и выпекайте в духовке до золотистого цвета. Подавайте пирог горячим или холодным.",
         "prep_time": "50 минут",
         "image": "https://www.povarenok.ru/data/cache/2017feb/18/51/1917578_70754-710x550x.jpg"
     },
     {
         "id": 30,
         "title": "Гороховый суп",
-        "cooking_method": "1. Вскипятите воду в кастрюле и добавьте горох.\n2. Варите горох до мягкости.\n3. Обжарьте лук и морковь на сковороде до золотистого цвета.\n4. Добавьте обжаренные овощи к гороху.\n5. Приправьте солью, перцем и зеленью по вкусу.\n6. Подавайте горячим, посыпав зеленью.",
+        "cooking_method": "Вскипятите воду в кастрюле и добавьте горох. Варите горох до мягкости. Обжарьте лук и морковь на сковороде до золотистого цвета. Добавьте обжаренные овощи к гороху. Приправьте солью, перцем и зеленью по вкусу. Подавайте горячим, посыпав зеленью.",
         "prep_time": "40 минут",
         "image": "https://s1.eda.ru/StaticContent/Photos/150108085750/191126232622/p_O.jpg"
     },
     {
         "id": 31,
         "title": "Салат Цезарь с курицей",
-        "cooking_method": "1. Приготовьте белый соус: смешайте майонез, сметану, измельченный чеснок, соль и перец.\n2. Обжарьте куриное филе на сковороде до готовности.\n3. Нарежьте салатный лист, добавьте к нему крутоны и нарезанное яйцо.\n4. Полейте белым соусом и перемешайте.",
+        "cooking_method": "Приготовьте белый соус: смешайте майонез, сметану, измельченный чеснок, соль и перец. Обжарьте куриное филе на сковороде до готовности. Нарежьте салатный лист, добавьте к нему крутоны и нарезанное яйцо. Полейте белым соусом и перемешайте.",
         "prep_time": "25 минут",
         "image": "https://www.ermolino-produkty.ru/recipes/picts/recipes/tnw682-670%D1%85430_salat-cezar-s-kuricey.jpg"
     },
     {
         "id": 32,
         "title": "Плов",
-        "cooking_method": "1. Обжарьте лук на сковороде до золотистого цвета.\n2. Добавьте мясо и обжарьте до золотистой корочки.\n3. Добавьте морковь и обжарьте вместе с мясом.\n4. Добавьте рис и воду в кастрюлю, варите до готовности.\n5. Подавайте горячим, посыпав зеленью.",
+        "cooking_method": "Обжарьте лук на сковороде до золотистого цвета. Добавьте мясо и обжарьте до золотистой корочки. Добавьте морковь и обжарьте вместе с мясом. Добавьте рис и воду в кастрюлю, варите до готовности. Подавайте горячим, посыпав зеленью.",
         "prep_time": "60 минут",
         "image": "https://img.povar.ru/mobile/8b/4e/89/f5/uzbekskii_plov-4860.jpg"
     },
     {
         "id": 33,
         "title": "Курица в кляре",
-        "cooking_method": "1. Обваляйте куриные кусочки в кляре из муки, яйца, соли и перца.\n2. Обжарьте их во фритюре до золотистой корочки.\n3. Подавайте с соусом на ваш выбор.",
+        "cooking_method": "Обваляйте куриные кусочки в кляре из муки, яйца, соли и перца. Обжарьте их во фритюре до золотистой корочки. Подавайте с соусом на ваш выбор.",
         "prep_time": "35 минут",
         "image": "https://img.povar.ru/mobile/d7/ac/d6/75/kurica_v_klyare_i_kislo-sladkom_souse-707551.JPG"
     },
     {
         "id": 34,
         "title": "Овощной салат",
-        "cooking_method": "1. Нарежьте помидоры, огурцы, перец, капусту кубиками.\n2. Смешайте все овощи в большой миске.\n3. Приправьте солью, перцем, оливковым маслом и уксусом.\n4. Перемешайте и посыпьте мелко нарезанной петрушкой перед подачей.",
+        "cooking_method": "Нарежьте помидоры, огурцы, перец, капусту кубиками. Смешайте все овощи в большой миске. Приправьте солью, перцем, оливковым маслом и уксусом. Перемешайте и посыпьте мелко нарезанной петрушкой перед подачей.",
         "prep_time": "20 минут",
         "image": "https://s1.eda.ru/StaticContent/Photos/120213182735/120213183048/p_O.jpg"
     },
     {
         "id": 35,
         "title": "Чизкейк",
-        "cooking_method": "1. Приготовьте основу из измельченных печенья и сливочного масла.\n2. Смешайте творожный сыр, сахар, яйца и ваниль.\n3. Выложите смесь на основу из печенья.\n4. Выпекайте в духовке до готовности.\n5. Подавайте охлажденным, посыпав свежими ягодами или шоколадной крошкой.",
+        "cooking_method": "Приготовьте основу из измельченных печенья и сливочного масла. Смешайте творожный сыр, сахар, яйца и ваниль. Выложите смесь на основу из печенья. Выпекайте в духовке до готовности. Подавайте охлажденным, посыпав свежими ягодами или шоколадной крошкой.",
         "prep_time": "90 минут",
         "image": "https://art-lunch.ru/content/uploads/2014/08/cheesecake-new-york-001x2-1.jpg"
     },
     {
         "id": 36,
         "title": "Гуакамоле",
-        "cooking_method": "1. Разомните спелые авокадо в миске.\n2. Добавьте измельченный лук, томаты, чеснок и лимонный сок.\n3. Приправьте солью и перцем.\n4. Перемешайте до получения однородной массы.\n5. Подавайте с тортильями или чипсами.",
+        "cooking_method": "Разомните спелые авокадо в миске.\nДобавьте измельченный лук, томаты, чеснок и лимонный сок.\nПриправьте солью и перцем.\nПеремешайте до получения однородной массы.\nПодавайте с тортильями или чипсами.",
         "prep_time": "15 минут",
         "image": "https://www.chefmarket.ru/blog/wp-content/uploads/2019/03/guacamole-mexcan.jpg"
     },
     {
         "id": 37,
         "title": "Фаршированные перцы",
-        "cooking_method": "1. Приготовьте фарш из риса, мяса, лука и специй.\n2. Вымойте перцы и удалите семена.\n3. Наполните перцы фаршем.\n4. Выложите их в форму для запекания и запекайте в духовке.\n5. Подавайте горячими.",
+        "cooking_method": "Приготовьте фарш из риса, мяса, лука и специй.\nВымойте перцы и удалите семена.\nНаполните перцы фаршем.\nВыложите их в форму для запекания и запекайте в духовке.\nПодавайте горячими.",
         "prep_time": "50 минут",
         "image": "https://pava-pava.com/upload/resize_cache/iblock/c73/550_550_0/b6gefdmjsi7qskh1s332c0nrssew0lyk.jpg"
     },
     {
         "id": 38,
         "title": "Томатный суп",
-        "cooking_method": "1. Обжарьте лук и чеснок на сковороде до золотистого цвета.\n2. Добавьте нарезанные помидоры и тушите до мягкости.\n3. Добавьте овощной бульон и варите.\n4. Пюрируйте суп до однородности.\n5. Подавайте горячим, посыпав зеленью.",
+        "cooking_method": "Обжарьте лук и чеснок на сковороде до золотистого цвета.\nДобавьте нарезанные помидоры и тушите до мягкости.\nДобавьте овощной бульон и варите.\nПюрируйте суп до однородности.\nПодавайте горячим, посыпав зеленью.",
         "prep_time": "30 минут",
         "image": "https://www.vkusnyblog.com/wp-content/uploads/2011/08/tomato-nut-soup.jpg"
     },
     {
         "id": 39,
         "title": "Картофельное пюре",
-        "cooking_method": "1. Очистите и нарежьте картофель кубиками.\n2. Вскипятите воду в кастрюле и добавьте туда картофель.\n3. Варите до мягкости.\n4. Слейте воду и размелите картофель в пюре при помощи венчика или толкушки.\n5. Добавьте масло, соль и перец по вкусу.",
+        "cooking_method": "Очистите и нарежьте картофель кубиками.\nВскипятите воду в кастрюле и добавьте туда картофель.\nВарите до мягкости.\nСлейте воду и размелите картофель в пюре при помощи венчика или толкушки.\nДобавьте масло, соль и перец по вкусу.",
         "prep_time": "25 минут",
         "image": "https://www.povarenok.ru/data/cache/2019nov/30/46/2620766_71031-710x550x.jpg"
     },
     {
         "id": 40,
         "title": "Шашлык из свинины",
-        "cooking_method": "1. Нарежьте мясо кубиками.\n2. Приготовьте маринад из масла, лимонного сока, специй и чеснока.\n3. Замаринуйте мясо в маринаде несколько часов.\n4. Нанизывайте мясо на шампуры и жарьте на гриле или углях до готовности.\n5. Подавайте горячим, посыпав зеленью.",
+        "cooking_method": "Нарежьте мясо кубиками.\nПриготовьте маринад из масла, лимонного сока, специй и чеснока.\nЗамаринуйте мясо в маринаде несколько часов.\nНанизывайте мясо на шампуры и жарьте на гриле или углях до готовности.\nПодавайте горячим, посыпав зеленью.",
         "prep_time": "180 минут",
         "image": "https://e3.edimdoma.ru/data/recipes/0007/4472/74472-ed4_wide.jpg?1628802734"
     },
     {
         "id": 41,
         "title": "Мясные фрикадельки",
-        "cooking_method": "1. Приготовьте фарш из мяса, лука, соли, перца и яйца.\n2. Сформируйте фрикадельки из фарша.\n3. Обжарьте их на сковороде до золотистой корочки.\n4. Подавайте горячими с соусом или гарниром.",
+        "cooking_method": "Приготовьте фарш из мяса, лука, соли, перца и яйца.\nСформируйте фрикадельки из фарша.\nОбжарьте их на сковороде до золотистой корочки.\nПодавайте горячими с соусом или гарниром.",
         "prep_time": "40 минут",
         "image": "https://www.foodinni.ru/upload/iblock/703/frikadelki.jpg"
     },
     {
         "id": 42,
         "title": "Картофельные оладьи",
-        "cooking_method": "1. Очистите и натрите картофель на терке.\n2. Добавьте яйца, муку, соль и перец.\n3. Сформируйте оладьи и обжарьте их на сковороде до золотистой корочки.\n4. Подавайте горячими с сметаной или соусом.",
+        "cooking_method": "Очистите и натрите картофель на терке.\nДобавьте яйца, муку, соль и перец.\nСформируйте оладьи и обжарьте их на сковороде до золотистой корочки.\nПодавайте горячими с сметаной или соусом.",
         "prep_time": "30 минут",
         "image": "https://gotovim-doma.ru/images/recipe/e/4c/e4cad715fa2c3406c8bce678272beed8_l.jpg"
     },
     {
         "id": 43,
         "title": "Фруктовый салат",
-        "cooking_method": "1. Нарежьте фрукты кубиками.\n2. Смешайте фрукты в большой миске.\n3. Добавьте мед или сироп для подкисления.\n4. Перемешайте и охладите перед подачей.",
+        "cooking_method": "Нарежьте фрукты кубиками.\nСмешайте фрукты в большой миске.\nДобавьте мед или сироп для подкисления.\nПеремешайте и охладите перед подачей.",
         "prep_time": "15 минут",
         "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ensalada_de_fruta_casera.jpg"
     },
     {
         "id": 44,
         "title": "Блины",
-        "cooking_method": "1. Смешайте муку, яйца, молоко, соль и сахар в миске.\n2. Обжарьте тесто на сковороде до золотистой корочки.\n3. Подавайте с медом, джемом, или сметаной.",
+        "cooking_method": "Смешайте муку, яйца, молоко, соль и сахар в миске.\nОбжарьте тесто на сковороде до золотистой корочки.\nПодавайте с медом, джемом, или сметаной.",
         "prep_time": "30 минут",
         "image": "https://cdn.lifehacker.ru/wp-content/uploads/2022/02/Depositphotos_238816956_XL_1644310324-1280x640.jpeg"
     },
     {
         "id": 45,
         "title": "Омлет с грибами",
-        "cooking_method": "1. Нарежьте грибы и обжарьте их на сковороде до золотистой корочки.\n2. Взбейте яйца в миске с солью и перцем.\n3. Вылейте яйца на сковороду и обжарьте до готовности.\n4. Подавайте горячим с хлебом.",
+        "cooking_method": "Нарежьте грибы и обжарьте их на сковороде до золотистой корочки.\nВзбейте яйца в миске с солью и перцем.\nВылейте яйца на сковороду и обжарьте до готовности.\nПодавайте горячим с хлебом.",
         "prep_time": "20 минут",
         "image": "https://static.1000.menu/img/content-v2/ff/39/26799/omlet-s-gribami-i-syrom-na-skovorode-na-zavtrak_1637821358_17_max.jpg"
     },
     {
         "id": 46,
         "title": "Кукурузные хлопья с молоком",
-        "cooking_method": "1. Налейте молоко в миску.\n2. Посыпьте кукурузные хлопья.\n3. Добавьте мед или сахар по вкусу.\n4. Подавайте немедленно.",
+        "cooking_method": "Налейте молоко в миску.\nПосыпьте кукурузные хлопья.\nДобавьте мед или сахар по вкусу.\nПодавайте немедленно.",
         "prep_time": "5 минут",
         "image": "https://img.freepik.com/premium-photo/corn-flakes-with-milk-in-blue-bowl_88281-4290.jpg"
     },
     {
         "id": 47,
         "title": "Рис с овощами",
-        "cooking_method": "1. Нарежьте овощи кубиками.\n2. Обжарьте их на сковороде до мягкости.\n3. Добавьте приготовленный рис и перемешайте.\n4. Подавайте горячим.",
+        "cooking_method": "Нарежьте овощи кубиками.\nОбжарьте их на сковороде до мягкости.\nДобавьте приготовленный рис и перемешайте.\nПодавайте горячим.",
         "prep_time": "30 минут",
         "image": "https://static.1000.menu/img/content-v2/c4/09/43427/ris-s-ovoshchami-na-skovorode_1617258574_15_max.jpg"
     },
     {
         "id": 48,
         "title": "Курица по-пекински",
-        "cooking_method": "1. Приготовьте куриные кусочки.\n2. Обжарьте их до золотистой корочки.\n3. Добавьте соус по-пекински и тушите до готовности.\n4. Подавайте горячим, посыпав кунжутом.",
+        "cooking_method": "Приготовьте куриные кусочки.\nОбжарьте их до золотистой корочки.\nДобавьте соус по-пекински и тушите до готовности.\nПодавайте горячим, посыпав кунжутом.",
         "prep_time": "40 минут",
         "image": "https://img.iamcook.ru/old/upl/recipes/cat/u-357783447ef5230bdcecff1db275506e.JPG"
     },
     {
         "id": 49,
         "title": "Жареные сосиски",
-        "cooking_method": "1. Поместите сосиски на гриль и жарьте до золотистой корочки.\n2. Подавайте горячими с горчицей или кетчупом.",
+        "cooking_method": "Поместите сосиски на гриль и жарьте до золотистой корочки.\nПодавайте горячими с горчицей или кетчупом.",
         "prep_time": "20 минут",
         "image": "https://fort.crimea.com/catering/uploads/fotos/7702869a-ac7e-11e9-9c73-54a05051519a_1.jpg"
     },
     {
         "id": 50,
         "title": "Жареный лосось",
-        "cooking_method": "1. Приготовьте лосось, посыпав специями и солью.\n2. Разогрейте сковороду с маслом.\n3. Обжарьте лосось на сковороде с каждой стороны до готовности.\n4. Подавайте горячим с лимоном и зеленью.",
+        "cooking_method": "Приготовьте лосось, посыпав специями и солью.\nРазогрейте сковороду с маслом.\nОбжарьте лосось на сковороде с каждой стороны до готовности.\nПодавайте горячим с лимоном и зеленью.",
         "prep_time": "15 минут",
         "image": "https://lenta.servicecdn.ru/globalassets/recepty/5/--5/--.jpg?preset=medium"
     }

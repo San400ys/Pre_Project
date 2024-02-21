@@ -1,12 +1,11 @@
 import React from 'react';
 import {useParams} from "react-router-dom";
-import {Recipes} from "../Recipes/Recipes";
 import {Page, PageStyle, StyleCenter} from "./PageStyle";
 
-const PageRecipe = () => {
+const PageRecipe = ({ recipes }) => {
     const {id} = useParams();
 
-    const Recipe = Recipes.find(Recipe => Recipe.id === parseInt(id));
+    const Recipe = recipes.find(recipe => recipe.id === parseInt(id));
 
     return (
         <PageStyle>

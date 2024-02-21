@@ -4,7 +4,7 @@ import Search from "../Search/Search";
 import SearchStyle from "../Search/SearchStyle";
 import GridStyle from "./GridStyle";
 import CardStyle from "./CardStyle";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const AllRecipes = ({ recipes, favoriteRecipes, setFavoriteRecipes }) => {
     const [filteredRecipes, setFilteredRecipes] = useState(recipes);
@@ -35,7 +35,7 @@ const AllRecipes = ({ recipes, favoriteRecipes, setFavoriteRecipes }) => {
             </SearchStyle>
             <GridStyle>
                 {filteredRecipes.map(({ id, title, image, prep_time }) =>
-                    <CardStyle>
+                    <CardStyle key={id}>
                         <Link to={`${id}`}>
                             <img src={image} alt={title}/>
                             <h1>{title}</h1>

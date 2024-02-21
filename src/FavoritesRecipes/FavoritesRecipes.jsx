@@ -15,7 +15,7 @@ const FavoritesRecipes = ({ favoriteRecipes, setFavoriteRecipes }) => {
             <GridStyle>
                 {favoriteRecipes.map(({id, title, image, prep_time}) =>
                     <CardStyle key={id}>
-                        <Link to="">
+                        <Link to={`${id}`}>
                             <img src={image} alt={title}/>
                             <h1>{title}</h1>
                             <p>Время приготовления: {prep_time}</p>

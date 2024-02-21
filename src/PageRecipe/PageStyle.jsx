@@ -8,7 +8,7 @@ const PageStyle = styled.div`
     height: 90vh;
     align-items: center;
     justify-content: center;
-
+    
     h2 {
         font-size: 32px;
         font-weight: bold;
@@ -16,7 +16,6 @@ const PageStyle = styled.div`
         color: #222;
         background-color: white;
     }
-
     p {
         font-size: 18px;
         line-height: 1.6;
@@ -28,18 +27,16 @@ const PageStyle = styled.div`
         padding: 10px;
         box-shadow: 0 4px 8px #383838;
     }
-
     img {
-        width: 300px; 
-        height: 200px; 
-        object-fit: cover; 
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
         border-radius: 10px;
         margin-bottom: 20px;
     }
-    }
+
     ol {
-        list-style: none;
-        padding: 0;
+        padding: 20px;
         background-color: white;
         margin-bottom: 20px;
         text-align: start;
@@ -49,20 +46,10 @@ const PageStyle = styled.div`
         line-height: 1.6;
         color: #444;
         background-color: white;
+    }
 `;
 const Page = styled.p`
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    color: #444;
-    background-color: white;
-    border:  2px solid black;
-    border-radius: 8px;
     text-align: center;
-    padding: 10px;
-    box-shadow: 0 4px 8px #383838;
-    
-    
 `
 const StyleCenter = styled.div`
     height: 100%;
