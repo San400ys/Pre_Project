@@ -5,7 +5,7 @@ import {SliderStyle, ImageStyle} from "./SliderStyle";
 const Slider = ({ images }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const goToSlide = (index) => {
+    const Slide = (index) => {
         setCurrentIndex(index);
     };
 
@@ -13,11 +13,10 @@ const Slider = ({ images }) => {
         <SliderStyle>
             {images.map((image, index) => (
                 <ImageStyle
-                    key={index}
                     src={image}
                     alt="Recipe"
                     active={index === currentIndex}
-                    onClick={() => goToSlide(index)}
+                    onClick={() => Slide(index)}
                 />
             ))}
         </SliderStyle>

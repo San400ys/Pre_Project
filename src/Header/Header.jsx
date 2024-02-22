@@ -6,8 +6,7 @@ const Header = () => {
     return (
         <HeaderStyle>
             <header>
-                <Link to="">Главная страница</Link>
-                <Link to="AllRecipes">Все рецепты</Link>
+                <Link to="">Все рецепты</Link>
                 <Link to="FavoritesRecipes">Избранные рецепты</Link>
                 <Link to="MyRecipes">Мои рецепты</Link>
             </header>

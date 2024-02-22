@@ -33,9 +33,7 @@ const AllRecipes = ({ recipes, favoriteRecipes, setFavoriteRecipes }) => {
                                 <p>Время приготовления: {prep_time}</p>
                             </Link>
                             <button onClick={() => toggleFavorite(id)}>
-                                {favoriteRecipes.some((recipe) => recipe.id === id)
-                                    ? "Удалить из избранного"
-                                    : "Добавить в избранное"}
+                                {favoriteRecipes.some((recipe) => recipe.id === id) ? "Удалить из избранного" : "Добавить в избранное"}
                             </button>
                         </CardStyle>
                     ))}

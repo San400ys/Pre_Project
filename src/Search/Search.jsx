@@ -6,20 +6,19 @@ const Search = ({ setFilteredRecipes }) => {
 
     const debounced = debounce(setFilteredRecipes, 1500);
 
-    const handleSearchChange = (event) => {
+    const SearchChange = (event) => {
         const newSearch = event.target.value;
-        setSearch(newSearch);
         debounced(newSearch);
+        setSearch(newSearch);
     };
 
     return (
-        <div className="search-container">
+        <div>
             <input
                 type="text"
                 placeholder="Поиск"
                 value={search}
-                onChange={handleSearchChange}
-                className="search-input"
+                onChange={SearchChange}
             />
         </div>
     );

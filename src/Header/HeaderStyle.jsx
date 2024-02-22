@@ -12,14 +12,19 @@ const HeaderStyle = styled.div`
     }
 
     a {
-        background-color: #333;;
+        background-color: #333;
         color: white;
         text-decoration: none;
         margin-right: 20px;
         font-size: 18px;
     }
+
     a:hover {
         text-decoration: underline;
+    }
+
+    a:active {
+        color: #4f638d;
     }
 `
 export default HeaderStyle;

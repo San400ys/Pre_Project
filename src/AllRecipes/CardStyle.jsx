@@ -11,7 +11,7 @@ const CardStyle = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
     &:hover {
         box-shadow: 0 4px 8px #383838;
     }
@@ -42,14 +42,16 @@ const CardStyle = styled.div`
         margin-top: 25px;
         width: 100%;
         padding: 10px;
-        background-color: white;
+        background-color: #e5e5e5;
         border-bottom-right-radius: 8px;
         border-bottom-left-radius: 8px;
+        border: none;
     }
 
     button:hover {
-        background-color: #b8cdf3;
+        background-color: #bbbbbb;
     }
+
     a {
         width: 100%;
     }

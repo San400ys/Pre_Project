@@ -3,7 +3,7 @@ import styled from "styled-components";
 const SearchStyle = styled.div`
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin-bottom: 20px;
 
     input {
         background-color: white;
