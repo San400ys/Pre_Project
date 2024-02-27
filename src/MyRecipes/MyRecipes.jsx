@@ -1,15 +1,21 @@
 import React, { useState } from 'react';
-import {MyRecipesStyle, MyCardStyle} from "./MyRecipesStyle";
+import { MyRecipesStyle } from "./MyRecipesStyle";
 import GridStyle from "../AllRecipes/GridStyle";
+import { useDispatch, useSelector } from "react-redux";
+import { addMyAction, deleteMyAction } from "../Store/MyReducer";
+import CardStyle from "../AllRecipes/CardStyle";
 
-const MyRecipes = ({ recipes, addNewRecipe, allRecipes }) => {
+const MyRecipes = ({ allRecipes }) => {
+    const dispatch = useDispatch();
+    const myRecipes = useSelector(state => state.My.MyRecipes);
+
     const [title, setTitle] = useState('');
     const [cookingMethod, setCookingMethod] = useState('');
     const [prepTime, setPrepTime] = useState('');
     const [image, setImage] = useState('');
 
-    const handleSubmit = (event) => {
-        event.preventDefault()
+    const AddMyRecipes = (event) => {
+        event.preventDefault();
         const newRecipe = {
             id: allRecipes.length + 1,
             title: title,
@@ -17,13 +23,21 @@ const MyRecipes = ({ recipes, addNewRecipe, allRecipes }) => {
             prep_time: prepTime,
             image: image,
         };
-        addNewRecipe(newRecipe);
+        dispatch(addMyAction(newRecipe));
+        setTitle('');
+        setCookingMethod('');
+        setPrepTime('');
+        setImage('');
+    };
+
+    const DeleteRecipe = (id) => {
+        dispatch(deleteMyAction(id));
     };
 
     return (
         <MyRecipesStyle>
             <h2>Мои рецепты</h2>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={AddMyRecipes}>
                 <input
                     type="text"
                     placeholder="Название"
@@ -56,15 +70,17 @@ const MyRecipes = ({ recipes, addNewRecipe, allRecipes }) => {
             </form>
             <h2>Ваши рецепты:</h2>
             <GridStyle>
-                {recipes.map(({id, title, image, prep_time}) => (
-                    <MyCardStyle key={id}>
-                        <img src={image} alt={title}/>
+                {myRecipes.map(({ id, title, image, prep_time }) => (
+                    <CardStyle key={id}>
+                        <img src={image} alt={title} />
                         <h1>{title}</h1>
                         <p>Время приготовления: {prep_time}</p>
-                    </MyCardStyle>
+                        <button onClick={() => DeleteRecipe(id)}>Удалить</button>
+                    </CardStyle>
                 ))}
             </GridStyle>
         </MyRecipesStyle>
     );
 };
+
 export default MyRecipes;
