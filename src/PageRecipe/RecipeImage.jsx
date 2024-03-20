@@ -1,4 +1,4 @@
-const RecipeImage = (Recipe) => {
+export const recipeImage = (Recipe) => {
     const images = [];
     for (const key in Recipe) {
         if (key.startsWith('image')) {
@@ -7,5 +7,3 @@ const RecipeImage = (Recipe) => {
     }
     return images;
 };
-
-export default RecipeImage;

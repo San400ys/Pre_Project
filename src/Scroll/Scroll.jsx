@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const Scroll = (filteredRecipes) => {
+export const Scroll = (filteredRecipes) => {
     const [visibleRecipes, setVisibleRecipes] = useState([]);
     const [hasMore, setHasMore] = useState(true);
 
@@ -13,7 +13,7 @@ const Scroll = (filteredRecipes) => {
         const Size = 5;
         const lastIndex = visibleRecipes.length;
         const nextRecipes = filteredRecipes.slice(lastIndex, lastIndex + Size);
-        setVisibleRecipes([...visibleRecipes, ...nextRecipes]);
+        setVisibleRecipes(prevState => [...prevState, ...nextRecipes]);
 
         if (lastIndex + Size >= filteredRecipes.length) {
             setHasMore(false);
@@ -22,5 +22,3 @@ const Scroll = (filteredRecipes) => {
 
     return { visibleRecipes, hasMore, loadMoreRecipes };
 };
-
-export default Scroll;

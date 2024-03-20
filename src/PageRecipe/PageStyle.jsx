@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
-const PageStyle = styled.div`
+export const PageStyle = styled.div`
     font-family: Arial, sans-serif;
     color: #333;
     background-color: #b4b3b3;
-    padding: 20px;
     height: 90vh;
     align-items: center;
     justify-content: center;
@@ -42,13 +41,12 @@ const PageStyle = styled.div`
         background-color: white;
     }
 `;
-const Page = styled.p`
+export const Page = styled.p`
     text-align: center;
 `
-const StyleCenter = styled.div`
+export const StyleCenter = styled.div`
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 `
-export {PageStyle, StyleCenter, Page};

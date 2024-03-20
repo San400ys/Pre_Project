@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const HeaderStyle = styled.div`
+export const HeaderStyle = styled.div`
     header {
         background-color: #333;
         color: white;
@@ -22,9 +22,4 @@ const HeaderStyle = styled.div`
     a:hover {
         text-decoration: underline;
     }
-
-    a:active {
-        color: #4f638d;
-    }
 `
-export default HeaderStyle;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const MyRecipesStyle = styled.div`
+export const MyRecipesStyle = styled.div`
     padding: 20px;
     
     form{
@@ -26,7 +26,7 @@ const MyRecipesStyle = styled.div`
         margin-bottom: 20px;
     }
 `;
-const MyCardStyle = styled.div`
+export const MyCardStyle = styled.div`
     width: calc(20% - 20px);
     box-shadow: 0 4px 8px #7c7c7c;
     border-radius: 8px;
@@ -65,4 +65,3 @@ const MyCardStyle = styled.div`
         width: 100%;
     }
 `;
-export {MyRecipesStyle, MyCardStyle};

@@ -1,19 +1,22 @@
 import React, {useState} from 'react';
-import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { addFavoriteAction, deleteFavoriteAction } from "../Store/FavoriteReducer";
 import InfiniteScroll from 'react-infinite-scroller';
-import AllRecipesStyle from "../AllRecipes/AllRecipesStyle";
-import Search from "../Search/Search";
+import {Scroll} from "../Scroll/Scroll";
+import {AllRecipesStyle} from "./AllRecipesStyle";
 import SearchStyle from "../Search/SearchStyle";
-import GridStyle from "./GridStyle";
-import CardStyle from "./CardStyle";
-import Scroll from "../Scroll/Scroll";
+import {Search} from "../Search/Search";
+import {GridStyle} from "./GridStyle";
+import {CardStyle} from "./CardStyle";
+import {RecipeCard} from "./RecipeCard";
 
-const AllRecipes = ({ recipes }) => {
+export const AllRecipes = ({ recipes }) => {
     const [filteredRecipes, setFilteredRecipes] = useState(recipes);
     const dispatch = useDispatch();
-    const favoriteRecipes = useSelector(state => state.Favorite.favoriteRecipes);
+    const favoriteRecipes = useSelector(state => state.FavoriteRecipeReducer.favoriteRecipes);
+    const isFavoriteRecipe = (favoriteRecipes, id) => {
+        return favoriteRecipes.some(recipe => recipe.id === id);
+    };
     const updateFilteredRecipes = (newSearch) => {
         const filteredRecipes = recipes.filter(recipe =>
             recipe.title.toLowerCase().includes(newSearch.toLowerCase())
@@ -21,7 +24,7 @@ const AllRecipes = ({ recipes }) => {
         setFilteredRecipes(filteredRecipes);
     };
     const { visibleRecipes, hasMore, loadMoreRecipes } = Scroll(filteredRecipes);
-    const ToggleFavorite = (id) => {
+    const toggleFavorite = (id) => {
         if (favoriteRecipes.some(recipe => recipe.id === id)) {
             dispatch(deleteFavoriteAction(id));
         } else {
@@ -44,13 +47,13 @@ const AllRecipes = ({ recipes }) => {
                 <GridStyle>
                     {visibleRecipes.map(({ id, title, image, prep_time }) => (
                         <CardStyle key={id}>
-                            <Link to={`${id}`}>
-                                <img src={image} alt={title}/>
-                                <h1>{title}</h1>
-                                <p>Время приготовления: {prep_time}</p>
-                            </Link>
-                            <button onClick={() => ToggleFavorite(id)}>
-                                {favoriteRecipes.some((recipe) => recipe.id === id) ? "Удалить из избранного" : "Добавить в избранное"}
+                            <RecipeCard id={id}
+                                        title={title}
+                                        image={image}
+                                        prep_time={prep_time}>
+                            </RecipeCard>
+                            <button onClick={() => toggleFavorite(id)}>
+                                {isFavoriteRecipe(favoriteRecipes, id) ? "Удалить из избранного" : "Добавить в избранное"}
                             </button>
                         </CardStyle>
                     ))}
@@ -59,5 +62,3 @@ const AllRecipes = ({ recipes }) => {
         </AllRecipesStyle>
     );
 };
-
-export default AllRecipes;

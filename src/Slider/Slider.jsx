@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import {SliderStyle, ImageStyle} from "./SliderStyle";
 
-
-const Slider = ({ images }) => {
+export const Slider = ({ images }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const Slide = (index) => {
+    const slide = (index) => () => {
         setCurrentIndex(index);
     };
 
@@ -13,14 +12,14 @@ const Slider = ({ images }) => {
         <SliderStyle>
             {images.map((image, index) => (
                 <ImageStyle
+                    id={index}
                     src={image}
                     alt="Recipe"
                     active={index === currentIndex}
-                    onClick={() => Slide(index)}
+                    onClick={slide(index)}
                 />
             ))}
         </SliderStyle>
     );
 };
 
-export default Slider;

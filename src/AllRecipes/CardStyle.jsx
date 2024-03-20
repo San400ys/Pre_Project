@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const CardStyle = styled.div`
+export const CardStyle = styled.div`
     width: calc(20% - 20px);
     margin-bottom: 20px;
     box-shadow: 0 4px 8px #7c7c7c;
@@ -54,7 +54,6 @@ const CardStyle = styled.div`
 
     a {
         width: 100%;
+        background-color: white;
     }
 `;
-
-export default CardStyle;

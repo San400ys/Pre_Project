@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const SliderStyle = styled.div`
+export const SliderStyle = styled.div`
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -8,7 +8,7 @@ const SliderStyle = styled.div`
     background-color: white;
 `;
 
-const ImageStyle = styled.img`
+export const ImageStyle = styled.img`
     width: ${({ active }) => (active ? '300px' : '50px')};
     height: ${({ active }) => (active ? '200px' : '50px')};
     object-fit: cover;
@@ -17,5 +17,3 @@ const ImageStyle = styled.img`
     opacity: ${({ active }) => (active ? 1 : 0.3)};
     margin-right: 5px;
 `;
-
-export {SliderStyle, ImageStyle}

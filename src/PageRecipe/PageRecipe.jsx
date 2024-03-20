@@ -1,27 +1,26 @@
 import React from 'react';
 import { useParams } from "react-router-dom";
 import { Page, PageStyle, StyleCenter } from "./PageStyle";
-import Slider from "../Slider/Slider";
-import RecipeImage from "./RecipeImage";
+import {Slider} from "../Slider/Slider";
+import {recipeImage} from "./RecipeImage";
 
-
-const PageRecipe = ({ recipes }) => {
+export const PageRecipe = ({ recipes }) => {
     const { id } = useParams();
-    const Recipe = recipes.find(recipe => recipe.id === parseInt(id));
+    const recipe = recipes.find(recipe => recipe.id === parseInt(id));
 
     return (
         <PageStyle>
             <StyleCenter>
-                {Recipe ? (
+                {recipe ? (
                     <Page>
-                        <h2>{Recipe.title}</h2>
-                        <Slider images={RecipeImage(Recipe)} />
+                        <h2>{recipe.title}</h2>
+                        <Slider images={recipeImage(recipe)} />
                         <ol>
-                            {Recipe.cooking_method.split('\n').map((step, index) => (
+                            {recipe.cooking_method.split('\n').map((step, index) => (
                                 <li key={index}>{step}</li>
                             ))}
                         </ol>
-                        Время приготовления: {Recipe.prep_time}
+                        Время приготовления: {recipe.prep_time}
                     </Page>
                 ) : (
                     <p>Рецепт не найден</p>
@@ -30,5 +29,3 @@ const PageRecipe = ({ recipes }) => {
         </PageStyle>
     );
 };
-
-export default PageRecipe;
