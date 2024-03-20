@@ -47,16 +47,14 @@ export const MyRecipes = ({ allRecipes }) => {
                 prep_time={prep_time}
                 setPrep_Time={setPrep_Time}
                 image={image}
-                setImage={setImage}
-            />
+                setImage={setImage}/>
             <GridStyle>
                 {myRecipes.map(({id, title, image, prep_time}) => (
                     <CardStyle key={id}>
                         <RecipeCard id={id}
                                     title={title}
                                     image={image}
-                                    prep_time={prep_time}>
-                        </RecipeCard>
+                                    prep_time={prep_time}/>
                         <button onClick={deleteRecipe(id)}>Удалить</button>
                     </CardStyle>
                 ))}

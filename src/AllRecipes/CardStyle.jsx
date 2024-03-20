@@ -55,5 +55,6 @@ export const CardStyle = styled.div`
     a {
         width: 100%;
         background-color: white;
+        text-decoration: none;
     }
 `;

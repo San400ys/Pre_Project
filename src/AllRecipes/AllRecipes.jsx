@@ -50,8 +50,7 @@ export const AllRecipes = ({ recipes }) => {
                             <RecipeCard id={id}
                                         title={title}
                                         image={image}
-                                        prep_time={prep_time}>
-                            </RecipeCard>
+                                        prep_time={prep_time}/>
                             <button onClick={() => toggleFavorite(id)}>
                                 {isFavoriteRecipe(favoriteRecipes, id) ? "Удалить из избранного" : "Добавить в избранное"}
                             </button>

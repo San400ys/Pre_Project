@@ -23,8 +23,7 @@ export const FavoritesRecipes = () => {
                         <RecipeCard id={id}
                                     title={title}
                                     image={image}
-                                    prep_time={prep_time}>
-                        </RecipeCard>
+                                    prep_time={prep_time}/>
                         <button onClick={handleDeleteRecipe(id)}>Удалить из избранного</button>
                     </CardStyle>
                 ))}
